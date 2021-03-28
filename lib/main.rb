@@ -16,6 +16,7 @@ list.to_s
 puts list.size
 puts list.at(8)
 puts list.find('knight')
+puts list.find('first')
 list.pop
 puts list.contains?('rook')
 list.insert_at('player', 5)
